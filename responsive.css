@@ -1,9 +1,202 @@
 /* untuk tablet */
-@media all and (max-width: 1000px){
-    
+@media all and (max-width: 1000px) {
+    .container {
+        padding: 0 40px;
+    }
+
+    .header-center a {
+        padding: 0 10px;
+    }
+
+    .top-wrapper {
+        padding: 140px 100px;
+    }
+
+    .top-wrapper .line {
+        top: 145px;
+        margin: 10px;
+    }
+
+    .top-wrapper h4 {
+        font-size: 24px;
+    }
+
+    .top-wrapper h3 {
+        font-size: 45px;
+        text-shadow: 2px 2px 40px blueviolet;
+    }
+
+    .top-wrapper p {
+        text-shadow: 2px 2px 40px blueviolet;
+        text-align: center;
+        color: black;
+    }
+
+    h6 {
+        font-size: 14px;
+        margin-left: 100px;
+        padding: 10px;
+    }
+
+    .conview h3 {
+        margin: 20px 20px;
+        font-size: 21px;
+    }
+
+    img.line {
+        top: 90px;
+        margin: 20px;
+    }
+
+    img.hike {
+        width: 400px;
+    }
+
+    .conview p {
+        margin: 20px 20px;
+        font-size: 13px;
+    }
+
+    .part1 {
+        margin-right: 150px;
+    }
+
+    .profile-wrapper {
+        width: 100%;
+        display: wrap;
+    }
+
+    .profile {
+        width: 50%;
+        height: 300px;
+    }
+
 }
 
 /* untuk phone */
-@media all and (max-width: 670px){
+@media all and (max-width: 670px) {
+    .container {
+        padding: 0 20px;
+    }
 
+    .header-center a {
+        padding: 0 2px;
+    }
+
+    .header-left p {
+        font-size: 18px;
+    }
+
+    .top-wrapper {
+        padding: 50px 10px 0px 10px;
+        text-align: center;
+    }
+
+    .top-wrapper .line {
+        display: none;
+    }
+
+    .top-wrapper h4 {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .top-wrapper h3 {
+        font-size: 30px;
+        text-shadow: 2px 2px 40px blueviolet;
+    }
+
+    .top-wrapper p {
+        text-shadow: 2px 2px 40px blueviolet;
+        color: white;
+        font-size: 14px;
+    }
+
+    h6 {
+        font-size: 14px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+    .conview h3 {
+        margin: 20px 20px;
+        font-size: 21px;
+    }
+
+    img.line {
+        top: 20px;
+        margin: 20px;
+    }
+
+    img.hike {
+        margin-top: 20px;
+        width: 100px;
+        height: 150px;
+
+    }
+
+    .conview p {
+        margin: 20px 20px;
+        font-size: 13px;
+    }
+
+    .conview {
+        display: wrap;
+        margin-bottom: 60px;
+    }
+
+    p.icon {
+        font-weight: 700;
+        font-size: 13px;
+        text-shadow: 1px 1px #ff0000;
+    }
+
+    footer .container {
+        display: block;
+        text-align: center;
+        padding: 0;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .part1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .part2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .part3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-right a {
+        padding: 0 5px;
+    }
+
+    .header-center a:hover,
+    .header-right a:hover {
+        height: auto;
+        border-radius: 10px;
+    }
+
+    header {
+        margin-bottom: 60px;
+        margin-top: 10px;
+    }
+
+    .profile-wrapper {
+        width: 100%;
+        display: wrap;
+    }
+
+    .profile {
+        width: 80%;
+        height: 350px;
+    }
 }
